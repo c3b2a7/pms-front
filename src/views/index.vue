@@ -1,5 +1,8 @@
 <template>
   <div class="app-container home">
+    <el-row>
+      <h2 style="text-align: center">欢迎使用项目管理系统</h2>
+    </el-row>
   </div>
 </template>
 
@@ -57,8 +60,8 @@ export default {
   }
 
   h2 {
-    margin-top: 10px;
-    font-size: 26px;
+    margin-top: 100px;
+    font-size: 40px;
     font-weight: 100;
   }
 

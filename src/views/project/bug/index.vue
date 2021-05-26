@@ -286,6 +286,9 @@ export default {
         title: [
           { required: true, message: '缺陷标题不能为空', trigger: 'blur' }
         ],
+        requirementNo: [
+          { required: true, message: '需求编号不能为空', trigger: 'blur' }
+        ],
         bugLevel: [
           { required: true, message: '严重级别不能为空', trigger: 'change' }
         ],
